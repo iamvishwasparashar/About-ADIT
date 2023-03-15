@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Program</title>
+
+    <style>
+        .whole {
+            margin-left: 10%;
+            margin-right: 10%;
+            /* margin-top: 5%;
+            margin-bottom: 5%; */
+            /* margin-right: 100px; */
+            text-align: center;
+        }
+        .mainhead {
+            text-align: center;
+            background-image: url(https://dam-mdc.phoenixcontact.com/rendition/156443151564/e6592624efec504b8ad269b765a346a7/-FJPG-TROI66-B800);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 90px;
+            color: white;
+            font-size: 60px;
+            margin-top: 3%;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        table {
+            margin: auto;
+            margin-bottom: 5%;
+        }
+        th {
+            background-color: lightgrey;
+        }
+        .grid1 {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            align-items: right;
+
+        }
+
+        .grid2 {
+            display: grid;
+            grid-template-columns: auto auto auto auto auto;
+            text-align: left;
+            /* margin-left: 0%;
+            margin-right: 0%; */
+            margin: auto;
+        }
+        .para {
+            line-height: 35px;
+            text-align: center;
+            display: grid;
+        }
+
+        .headings {
+            color: rgb(43, 93, 231);
+            display: inline-block;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .program {
+            text-align: center;
+            /* margin-left: 10%;
+            margin-right: 10%; */
+            display: flex;
+            margin-top: 3%;
+            margin-bottom: 3%;
+        }
+        .text {
+            /* text-align: right; */
+            padding-right: 5%;
+        }
+        .bottom {
+            display: grid;
+            grid-template-columns: 35% auto auto;
+            text-align: justify;
+            /* height: 100px;
+            width: 1000px; */
+        }
+
+        footer {
+            background-color: wheat;
+            box-sizing: border-box;
+            counter-reset: none;
+        }
+
+        /* footer {
+            background-color: wheat;
+        } */
+    </style>
+</head>
+
+<body>
+    <h2 class="headings" id="text">Advanced Diploma in IT, Networking and Cloud Computing</h2>
+    <div class="mainhead">
+        About Program
+    </div>
+    <div class="program">
+        <h3 class="headings">Program Partners</h3>
+        <img src="https://ibmadit.edunetfoundation.com/images/logo.png" alt="Partners">
+    </div>
+    <div class="whole">
+        <div>
+            <div class="grid1">
+                <img src="https://ibmadit.edunetfoundation.com/images/diploma-student.png" alt="">
+                <img src="https://ibmadit.edunetfoundation.com/images/duration.png" alt="">
+                <img src="https://ibmadit.edunetfoundation.com/images/location.png" alt="">
+                <img src="https://ibmadit.edunetfoundation.com/images/placement.png" alt="">
+                <img src="https://ibmadit.edunetfoundation.com/images/job.png" alt="">
+            </div>
+            <div class="grid2">
+                <p class="items">14 Locations</p>
+                <p class="items">Duration- 2 years</p>
+                <p class="items">NSQF 6 level advanced diploma</p>
+                <p class="items">Placement Support</p>
+                <p class="items">On the Job training</p>
+            </div>
+
+
+            <h3 class="headings">Course Outline</h3>
+            <table>
+                <tr>
+                    <th>Module</th>
+                    <th>Topic</th>
+                    <th>Duration</th>
+                </tr>
+                <tr>
+                    <td>Core Module 1</td>
+                    <td>Computer Hardware & Networking</td>
+                    <td>320Hrs</td>
+                </tr>
+                <tr>
+                    <td>Core Module 2</td>
+                    <td>Web design and Development</td>
+                    <td>320Hrs</td>
+                </tr>
+                <tr>
+                    <td>Core Module 3</td>
+                    <td>Backend Web Technologies & Frameworks</td>
+                    <td>320Hrs</td>
+                </tr>
+                <tr>
+                    <td>Core Module 4</td>
+                    <td>Python Programming and Web Development using Django</td>
+                    <td>320Hrs</td>
+                </tr>
+                <tr>
+                    <td>Core Module 5</td>
+                    <td>Business Data Analytics methods and tools:</td>
+                    <td>320Hrs</td>
+                </tr>
+                <tr>
+                    <td>Elective Subject 1</td>
+                    <td>Cloud Application Developer</td>
+                    <td>320Hrs</td>
+                </tr>
+                <tr>
+                    <td>Elective Subject 2</td>
+                    <td>Cloud Enterprise Developer</td>
+                    <td>320Hrs</td>
+                </tr>
+                <tr>
+                    <td>Elective Subject 3</td>
+                    <td>Web Development using JS Frameworks</td>
+                    <td>320Hrs</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer class="container">
+        <div class="bottom">
+            <p class="para" id="bt">
+                The Advanced Diploma in IT, Networking and Cloud Computing being offered as an initiative buoyed by IBM,
+                supported by the Directorate General of Training, and implemented by Edunet Foundation.
+            </p>
+            <div class="para">
+                <p>Quick Links</p>
+                <!-- About Program link -->
+                <!-- Partner Institutions -->
+            </div>
+            <div class="para">
+                <p>Get In Touch</p>
+                <a href="mailto:ibmadit@edunetfoundation.org">ibmadit@edunetfoundation.org</a>
+            </div>
+        </div>
+        <hr>
+        <p>© Copyright 2022 Edunet Foundation. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
